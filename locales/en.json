@@ -1,6 +1,7 @@
 {
   "page": {
     "index": "Home",
+    "chat": "Chat",
     "about": "About"
   },
   "footer": {

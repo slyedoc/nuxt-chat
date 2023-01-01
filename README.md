@@ -2,12 +2,16 @@
 
 ## Documentation
 - [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
-- [tRPC Nuxt](https://trpc-nuxt.vercel.app/get-started/installation)
+
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3)
 - [Vue I18n](https://vue-i18n.intlify.dev/guide/integrations/nuxt3.html)
   - [i18n Ally](https://i18n-ally.lokalise.com/)
 - [Nuxt Icon](https://github.com/nuxt-modules/icon)
   - [Iconify](https://icon-sets.iconify.design/)
+- [Prisma](https://www.prisma.io/docs/getting-started)
+- [tRPC Nuxt](https://trpc-nuxt.vercel.app/get-started/installation)
+- [Nuxt-Auth](https://sidebase.io/nuxt-auth/getting-started/quick-start)
+  - [nuxt-auth-example](https://github.com/sidebase/nuxt-auth-example)
 
 ## Setup
 

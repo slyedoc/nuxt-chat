@@ -47,6 +47,7 @@ import { useI18n } from 'vue-i18n';
 
 const navigation = [
     { name: 'page.index', to: '/' },
+    { name: 'page.chat', to: '/chat' },
     { name: 'page.about', to: '/about' },
 ];
 

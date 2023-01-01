@@ -1,15 +1,17 @@
+import { defineNuxtConfig } from 'nuxt/config'
 import Inspector from "vite-plugin-vue-inspector"
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    css: ['~/assets/css/main.css'],
     modules: [
         '@vueuse/nuxt',
-        'nuxt-icon',
+        'nuxt-icon',      
+        '@sidebase/nuxt-auth',  
     ],
     app: {
         pageTransition: { name: 'page', mode: 'out-in' }
-    },
-    css: ['~/assets/css/main.css'],
+    },    
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -19,9 +21,9 @@ export default defineNuxtConfig({
     build: {
         transpile: ['trpc-nuxt'],
     },
-    typescript: {
-        shim: false,
-    },
+    extends: [
+        '@sidebase/nuxt-prisma'
+      ],
     vite: {
         plugins: [
             Inspector({
@@ -30,5 +32,13 @@ export default defineNuxtConfig({
 
             })
         ]
-    }
+    },
+    auth: {
+        origin: process.env.ORIGIN,
+        enableGlobalAppMiddleware: true,
+      },
+    typescript: {
+        shim: false,
+        strict: true,
+    },
 })

@@ -9,10 +9,15 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In esse molestiae perferendis libero corrupti optio! Repellat corporis quas esse velit numquam obcaecati sit non! Aspernatur hic eaque enim mollitia perferendis.
             </p>
         </Card>
+
+         {{  hello.data }}
     </div>
 </template>
 
 <script setup lang="ts">
+
+definePageMeta({ auth: false })
 const { $client } = useNuxtApp()
 const hello = await $client.hello.useQuery({ text: 'client' })
+
 </script>

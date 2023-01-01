@@ -8,6 +8,7 @@
     <main class="flex-1 mt-8">
         <NuxtPage />
     </main>
+    <AuthenticationStatus />
     <Footer />
   </div>
 </template>

@@ -4,7 +4,8 @@
   },
   "page": {
     "about": "À propos",
-    "index": "Domicile"
+    "index": "Domicile",
+    "chat": "Discuter"
   },
   "common": {
     "logo": "Logo",
