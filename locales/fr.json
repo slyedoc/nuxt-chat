@@ -1,0 +1,15 @@
+{
+  "footer": {
+    "copyright": "2022 Anybody, Inc. Tous droits réservés."
+  },
+  "page": {
+    "about": "À propos",
+    "index": "Domicile"
+  },
+  "common": {
+    "logo": "Logo",
+    "light": "lumière",
+    "dark": "foncé",
+    "hello": "Bonjour {name}！"
+  }
+}

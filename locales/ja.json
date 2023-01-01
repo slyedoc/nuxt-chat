@@ -1,0 +1,15 @@
+{
+  "footer": {
+    "copyright": "2022 Anybody, Inc. 無断複写・転載を禁じます。"
+  },
+  "page": {
+    "about": "だいたい",
+    "index": "家"
+  },
+  "common": {
+    "logo": "ロゴ",
+    "light": "ライト",
+    "dark": "暗い",
+    "hello": "こんにちは、{name}！"
+  }
+}
