@@ -11,5 +11,8 @@
     "light": "light",
     "dark": "dark",
     "hello": "Hello {name}！"
+  },
+  "about": {
+    "title": "About Page"
   }
 }

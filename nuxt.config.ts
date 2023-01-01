@@ -1,3 +1,5 @@
+import Inspector from "vite-plugin-vue-inspector"
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     modules: [
@@ -20,4 +22,13 @@ export default defineNuxtConfig({
     typescript: {
         shim: false,
     },
+    vite: {
+        plugins: [
+            Inspector({
+                enabled: false,
+                appendTo: "entry.mjs"
+
+            })
+        ]
+    }
 })

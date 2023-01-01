@@ -6,6 +6,8 @@
 - [Tailwind CSS](https://tailwindcss.com/docs/guides/nuxtjs#3)
 - [Vue I18n](https://vue-i18n.intlify.dev/guide/integrations/nuxt3.html)
   - [i18n Ally](https://i18n-ally.lokalise.com/)
+- [Nuxt Icon](https://github.com/nuxt-modules/icon)
+  - [Iconify](https://icon-sets.iconify.design/)
 
 ## Setup
 

@@ -11,5 +11,8 @@
     "light": "lumière",
     "dark": "foncé",
     "hello": "Bonjour {name}！"
+  },
+  "about": {
+    "title": "À propos de la page"
   }
 }
